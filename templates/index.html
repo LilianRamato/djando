@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>myhomepage</title>
+</head>
+<body>
+<a href="{% url 'My_AboutUs' %}">About</a>
+<a href="{% url 'services' %}">Services</a>
+<a href="{% url 'contactus' %}">ContactUs</a>
+
+
+<h2>this is my home page</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorem doloribus dolorum eum fugiat illo laudantium libero non perferendis quam, quasi quibusdam quisquam sint voluptas voluptate voluptatibus voluptatum. Odit, totam!</span><span>Accusamus ad amet cumque delectus doloribus ducimus est exercitationem, expedita facilis in ipsam laudantium nesciunt nisi officia officiis perferendis possimus quos rem reprehenderit rerum saepe similique soluta, ut vel voluptas.</span><span>Architecto assumenda cumque doloribus eaque esse ex facere impedit incidunt iusto nemo nostrum, nulla odit quaerat quibusdam quisquam recusandae repudiandae rerum sapiente sed sunt ut veniam vero? Hic, repudiandae, sed.</span><span>Ad animi atque autem, corporis cumque debitis deleniti distinctio ea esse explicabo facilis fugiat, incidunt inventore, ipsa iusto labore nisi omnis placeat praesentium quos
+    repudiandae sed sequi tempora totam vero!</span></p>
+<img src="{% static 'img/night1' %}" alt=""height="2000" width="1000">
+</body>
+</html>
